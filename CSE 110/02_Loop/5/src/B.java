@@ -10,7 +10,7 @@ public class B {
 
         int i, j;
         for(i = size; i > 0; i--){
-            for(j = 1; j <= i; j++){
+            for(j = size; j >= i; j--){
                 System.out.print(j + " ");
             }
             System.out.println();

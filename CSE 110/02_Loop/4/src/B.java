@@ -16,7 +16,7 @@ public class B {
                 System.out.print(" ");
             }
             for(j = 0; j < 2 * i - 1; j++){
-                System.out.print("*");
+                System.out.print("#");
             }
             System.out.println();
         }

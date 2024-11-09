@@ -22,6 +22,7 @@ public class Main {
                 odd.add(e);
         }
 
-        System.out.println(even.addAll(odd));
+        even.addAll(odd);
+        System.out.println(even);
     }
 }
